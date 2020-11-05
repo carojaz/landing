@@ -1,0 +1,111 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.text-align {
+  text-align: center;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/h7bQ8VEZtws);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+.banner p {
+  font-size: 40px;
+  font-weight: lighter;
+  color: white;
+  text-shadow:0 2px 0 #8E8A8A, 0 -2px 0 #8E8A8A;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.btn {
+  text-decoration: none;
+  border: 1px solid #;
+  padding: 6px 20px;
+  background-color: white;
+  color: #8E8A8A;
+  border-radius: 20px;
+  font-size: 24px;
+}
+
+.btn:hover {
+  background-color: #8E8A8A;
+  opacity: 0.6;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 5px 5px 5px -5px #8E8A8A;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 120px;
+}
+
+.card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1px;
+}
+
+.card p {
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 1px;
+}
+
+.footer {
+  padding: 15px;
+  background-color: #62666A;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
